@@ -3,7 +3,12 @@
 	padding: 0;
 	text-decoration: none
 }
-
+/* font import area */
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+html{
+    scroll-behavior: smooth;
+}
 body {
     background: #fff;
     overflow-x: hidden;
@@ -18,7 +23,8 @@ header {
     max-width: 1300px;
     box-sizing: border-box;
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
+    
 }
 /*---------HEADER SECTION-----*/
 .header__section{
@@ -33,11 +39,52 @@ header {
     color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-        position: relative;
-        top: 30%;
-        
-        
-        
-        
-    
+    position: relative;
+    top: 30%;
 }
+
+.heading__text{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 132, 255);
+}
+.heading__line{
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/*=====CARDS=====*/
+.card-content {
+    display: table;
+    padding:15px;
+  }
+  .card-info {
+    padding: 20px;
+    background-color: #FFC9B5;
+    display: table-cell;
+    line-height: 1.363em;
+    vertical-align: middle;
+    word-break: break-all;
+  }
+  
+  .card-icon {
+    font-size: 3.2em;
+    color: white;
+    text-align: center;
+    width: 20%;
+    background-color: #EB5E55 !important;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px; 
+  }
+  
+  .text-area {
+    color: #EB5E55;
+    font-size: 16px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
